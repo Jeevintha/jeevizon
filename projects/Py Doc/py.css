@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    color:black;
+    background:#ffde57;
+   }
+   section>*{
+    border-bottom: solid;
+    padding-bottom:20px;
+   }
+
+   nav header{
+    font-size:1.75rem;
+   }
+
+   section header{
+    color:black;
+    font-size:30px;
+    background: #4584b6;
+    width:77vw;
+   }
+
+   nav{
+     text-align:center;
+     position:fixed;
+     width:20%;
+     border-right:1px solid grey;
+     height:100%;
+     overflow:scroll;
+     background: #4584b6;
+   }
+   .nav-link{
+      text-decoration:none;
+      color:rgb(41, 41, 41);
+      font-size:1.5rem;
+   }
+   nav ul{
+     list-style:none;
+     padding:0;
+   }
+
+   nav ul li{
+     border-top:1px solid;
+     padding:30px 5px;
+   }
+
+   main{
+     margin-left:20%;
+     padding:1rem;
+   }
